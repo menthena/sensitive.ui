@@ -1,0 +1,12 @@
+{
+    "name": "sensitivejs",
+    "version": "0.0.1",
+    "main": [
+        "app/css/sensitivejs",
+        "app/img/sprites.gif",
+        "app/js/sensitivejs"
+    ],
+    "dependencies": {
+        "jquery": ">=2.1.1"
+    }
+}

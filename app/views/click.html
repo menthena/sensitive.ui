@@ -1,0 +1,32 @@
+<h1>
+  <strong>
+      Sensitive.UI
+      <span>
+        CLICK
+      </span>
+  </strong>
+</h1>
+<span>
+    Start moving your mouse to the button and click on the document.
+</span>
+
+<div class="pt2em">
+    <button type="submit" class="btn btn-default sensitive-button" onclick="$('.sensitive-button-text').slideUp()">Button</button>
+
+    <span class="sensitive-button-text label label-danger">
+      Hide me!
+    </span>
+</div>
+
+
+<div class="pt2em">
+  <h4>
+    USAGE
+  </h4>
+
+    <pre>
+      $('.sensitive').sensitive({
+        type: 'click'
+      });
+    </pre>
+</div>

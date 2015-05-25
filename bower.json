@@ -1,0 +1,45 @@
+{
+  "name": "sensitivejs",
+  "version": "0.0.1",
+  "title": "Sensitivejs",
+  "appPath": "app",
+  "description": "",
+  "keywords": [
+    "image",
+    "video",
+    "gallery"
+  ],
+  "homepage": "",
+  "author": {
+    "name": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://.git"
+  },
+  "bugs": "/issues",
+  "dependencies": {
+    "jquery": ">=2.1.1",
+    "bootstrap": "~3.3.4",
+    "angular": "~1.3.15",
+    "angular-route": "~1.3.15"
+  },
+  "main": [
+    "app/css/sensitivejs",
+    "app/img/sprites.gif",
+    "app/js/sensitivejs"
+  ],
+  "ignore": [
+    "/*.*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "authors": [
+    " <YOUR_MAIL@gmail.com>"
+  ],
+  "license": "MIT"
+}
